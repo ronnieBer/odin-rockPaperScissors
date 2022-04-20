@@ -1,8 +1,7 @@
 const options = ['rock', 'paper', 'scissors'];
 
 function computerSelect() {
-    const random = Math.floor(Math.random() * options.length);
-    return options[random];
+    return options[Math.floor(Math.random() * options.length)];
 }
 
 function playerSelect() {
@@ -36,17 +35,14 @@ function play() {
                 return "You Win! Scissors beats Paper";
             }
         }
-    }
-}
-
-
+    };
+    console.log(playRound(playerSelection, computerSelection));
+};
 
 function game() {
     for (let i = 1; i <= 5; i++) {
-        playRound(playerSelection, computerSelection);
-    }
-}
-
-console.log(game());
+        play();
+    };
+};
 
 game();
