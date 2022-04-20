@@ -37,6 +37,7 @@ function play() {
         }
     };
     console.log(playerSelection);
+    console.log(computerSelection);
     console.log(playRound(playerSelection, computerSelection));
 };
 
