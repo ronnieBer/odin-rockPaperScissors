@@ -1,7 +1,8 @@
+const options = ['Rock', 'Paper', 'Scissors'];
+
 function computerPlay() {
-    const handGesture = ['Rock', 'Paper', 'Scissors'];
-    const random = Math.floor(Math.random() * handGesture.length);
-    return handGesture[random];
+    const random = Math.floor(Math.random() * options.length);
+    return options[random];
 }
 
 function playRound(playerSelection, computerSelection) {
