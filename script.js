@@ -1,4 +1,4 @@
-const options = ['Rock', 'Paper', 'Scissors'];
+const options = ['rock', 'paper', 'scissors'];
 
 function computerSelect() {
     const random = Math.floor(Math.random() * options.length);
