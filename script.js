@@ -6,7 +6,7 @@ function computerSelect() {
 }
 
 function playerSelect() {
-    return input("Options: rock, paper, and scissors").toLowerCase();
+    return prompt("Options: rock, paper, and scissors").toLowerCase();
 }
 
 function playRound(playerSelection, computerSelection) {
