@@ -5,6 +5,10 @@ function computerSelect() {
     return options[random];
 }
 
+function playerSelect() {
+    return input("Options: rock, paper, and scissors").toLowerCase();
+}
+
 function playRound(playerSelection, computerSelection) {
     if (playerSelection.toLowerCase() && computerSelection.toLowerCase() == "rock") {
         return "Its a Draw!!";
