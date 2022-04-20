@@ -11,6 +11,7 @@ function playerSelect() {
 
 function play() {
     const playerSelection = playerSelect();
+    const computerSelection = computerSelect();
 
     function playRound(playerSelection, computerSelection) {
         if (playerSelection === computerSelection) {
@@ -39,7 +40,6 @@ function play() {
 }
 
 
-const computerSelection = computerSelect();
 
 function game() {
     for (let i = 1; i <= 5; i++) {
