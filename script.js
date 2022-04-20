@@ -9,6 +9,10 @@ function playerSelect() {
     return prompt("Options: rock, paper, and scissors").toLowerCase();
 }
 
+function play() {
+    
+}
+
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         return "Its a Draw!";
@@ -44,3 +48,5 @@ function game() {
 }
 
 console.log(game());
+
+game();
