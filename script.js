@@ -1,6 +1,7 @@
 const options = ['rock', 'paper', 'scissors'];
 
 let playerScore = 0;
+let computerScore = 0;
 
 function computerSelect() {
     return options[Math.floor(Math.random() * options.length)];
@@ -33,6 +34,7 @@ function play() {
         } else {
             //Validate player selection Rock.
             if (playerSelection == "rock" && computerSelection == "paper") {
+                computerScore++;
                 return "You Lose! Paper beats Rock";
             } else if (playerSelection == "rock" && computerSelection == "scissors") {
                 playerScore++;
@@ -40,6 +42,7 @@ function play() {
             }
             //Validate player selection Paper.
             if (playerSelection == "paper" && computerSelection == "scissors") {
+                computerScore++;
                 return "You Lose! Scissors beats Paper";
             } else if (playerSelection == "paper" && computerSelection == "rock") {
                 playerScore++;
@@ -47,6 +50,7 @@ function play() {
             }
             //Validate player selection Scissors.
             if (playerSelection == "scissors" && computerSelection == "rock") {
+                computerScore++;
                 return "You Lose! Rock beats Scissors";
             } else if (playerSelection == "scissors" && computerSelection == "paper") {
                 playerScore++;
@@ -58,6 +62,7 @@ function play() {
     console.log(computerSelection);
     console.log(playRound(playerSelection, computerSelection));
     console.log("You: " + playerScore);
+    console.log("Computer: " + computerScore);
 };
 
 function game() {
