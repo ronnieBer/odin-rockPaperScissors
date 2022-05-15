@@ -2,6 +2,7 @@ const options = ['rock', 'paper', 'scissors'];
 
 let playerScore = 0;
 let computerScore = 0;
+let numberOfDraw = 0;
 
 function computerSelect() {
     return options[Math.floor(Math.random() * options.length)];
@@ -30,6 +31,7 @@ function play() {
 
     function playRound(playerSelection, computerSelection) {
         if (playerSelection === computerSelection) {
+            numberOfDraw++;
             return "Its a Draw!";
         } else {
             //Validate player selection Rock.
@@ -63,6 +65,7 @@ function play() {
     console.log(playRound(playerSelection, computerSelection));
     console.log("You: " + playerScore);
     console.log("Computer: " + computerScore);
+    console.log("Number of Draw: " + numberOfDraw);
 };
 
 function game() {
