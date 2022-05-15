@@ -2,11 +2,24 @@ const options = ['rock', 'paper', 'scissors'];
 
 function computerSelect() {
     return options[Math.floor(Math.random() * options.length)];
-}
+};
 
 function playerSelect() {
-    return prompt("Options: rock, paper, and scissors").toLowerCase();
-}
+    let input = prompt("Input Rock, Paper, and Scissors. Press Enter or click OK.").toLowerCase();
+    let check = validateInput(input);
+
+    while (check == false) {
+        input = prompt("Check your spelling! Input Rock, Paper, and Scissors. Press Enter or click OK.").toLowerCase();
+        check = validateInput(input);
+    }
+    check;
+    return input;
+};
+
+//Validate player input according to options array.
+function validateInput(option) {
+    return options.includes(option)
+};
 
 function play() {
     const playerSelection = playerSelect();
