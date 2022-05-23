@@ -86,3 +86,8 @@ function playRound(playerSelection, computerSelection) {
         };
     };
 };
+
+function updateMoves(playerSelection, computerSelection) {
+    document.getElementById("p-move").src = `./assets/images/${"p" + playerSelection}.svg`;
+    document.getElementById("c-move").src = `./assets/images/${"c" + computerSelection}.svg`;
+};
