@@ -22,6 +22,21 @@ function gameStart() {
     pMoves.style.opacity = '100';
 }
 
+function gameFinish() {
+    textContainer.style.top = '8vh';
+    textContainer.style.opacity = '100';
+    gPlay.style.opacity = '0';
+    gPlay.style.zIndex = '-1';
+    rResultContainer.style.opacity = '0';
+    rResultContainer.style.zIndex = '-1';
+    pMoves.style.opacity = '0';
+    pMoves.style.zIndex = '-1';
+    eMassageContainer.style.opacity = '100';
+    btnContainer.style.opacity = '100';
+    btnContainer.style.top = '75vh';
+    btnContainer.style.zIndex = '1';
+}
+
 button.textContent = "START GAME";
 
 button.addEventListener("click", function () {
