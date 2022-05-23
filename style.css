@@ -178,3 +178,14 @@ img {
 .round-winner {
     width: 100%;
 }
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 32%;
+
+    opacity: 0;
+    transition: opacity .5s;
+}
