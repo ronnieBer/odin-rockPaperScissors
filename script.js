@@ -7,6 +7,7 @@ const rResultContainer = document.querySelector('.round-result');
 const rResultText = document.getElementById('round-winner');
 const sBoard = document.querySelector('.score-board');
 const pMoves = document.querySelector('.player-moves');
+const gameWinner = document.getElementById('game-winner');
 
 const options = ['rock', 'paper', 'scissors'];
 
