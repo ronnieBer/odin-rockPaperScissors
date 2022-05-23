@@ -72,19 +72,6 @@ function playRound(playerSelection, computerSelection) {
     }
 };
 
-function logWins() {
-    function gameWinner() {
-        if (playerScore > computerScore) {
-            return "You win the game!";
-        } else if (playerScore < computerScore) {
-            return "You lose the game!";
-        } else {
-            return "It's a draw game!"
-        }
-    };
-    console.log("Game Over!\n" + gameWinner());
-};
-
 function game() {
     for (let i = 1; i <= 5; i++) {
         play();
