@@ -29,6 +29,7 @@ button.addEventListener("click", function () {
 });
 
 
+const pOptions = document.querySelectorAll(".pOptions");
 const options = ['rock', 'paper', 'scissors'];
 
 let playerScore = 0;
