@@ -115,3 +115,12 @@ img {
     z-index: 1;
     transition: opacity .2s, z-index .2s;
 }
+
+.player-move, 
+.computer-move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 257px;
+    height: auto;
+}
