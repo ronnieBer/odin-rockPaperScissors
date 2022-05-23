@@ -10,6 +10,19 @@ const pMoves = document.querySelector('.player-moves');
 const gameWinner = document.getElementById('game-winner');
 const eMassageContainer = document.querySelector('.end-message');
 
+
+function gameStart() {
+    textContainer.style.top = '0';
+    btnContainer.style.opacity = '0';
+    btnContainer.style.top = '75vh';
+    btnContainer.style.zIndex = '-1';
+    gPlay.style.opacity = '100';
+    rResultContainer.style.opacity = '100';
+    sBoard.style.opacity = '100';
+    pMoves.style.opacity = '100';
+}
+
+
 const options = ['rock', 'paper', 'scissors'];
 
 let playerScore = 0;
