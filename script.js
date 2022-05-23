@@ -51,32 +51,38 @@ pOptions.forEach((pOption) => {
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
-        numberOfDraw++;
-        return "Its a Draw!";
+        gameRound++;
+        return rResultText.textContent = "Its a Draw!";
     } else {
         //Validate player selection Rock.
-        if (playerSelection == "rock" && computerSelection == "paper") {
+        if (playerSelection == "Rock" && computerSelection == "Paper") {
             computerScore++;
-            return "You Lose! Paper beats Rock";
-        } else if (playerSelection == "rock" && computerSelection == "scissors") {
+            gameRound++;
+            return rResultText.textContent = "You Lose!";
+        } else if (playerSelection == "Rock" && computerSelection == "Scissors") {
             playerScore++;
-            return "You Win! Rock beats Scissors";
+            gameRound++;
+            return rResultText.textContent = "You Win!";
         }
         //Validate player selection Paper.
-        if (playerSelection == "paper" && computerSelection == "scissors") {
+        if (playerSelection == "Paper" && computerSelection == "Scissors") {
             computerScore++;
-            return "You Lose! Scissors beats Paper";
-        } else if (playerSelection == "paper" && computerSelection == "rock") {
+            gameRound++;
+            return rResultText.textContent = "You Lose!";
+        } else if (playerSelection == "Paper" && computerSelection == "Rock") {
             playerScore++;
-            return "You Win! Paper beats Rock";
+            gameRound++;
+            return rResultText.textContent = "You Win!";
         }
         //Validate player selection Scissors.
-        if (playerSelection == "scissors" && computerSelection == "rock") {
+        if (playerSelection == "Scissors" && computerSelection == "Rock") {
             computerScore++;
-            return "You Lose! Rock beats Scissors";
-        } else if (playerSelection == "scissors" && computerSelection == "paper") {
+            gameRound++;
+            return rResultText.textContent = "You Lose!";
+        } else if (playerSelection == "Scissors" && computerSelection == "Paper") {
             playerScore++;
-            return "You Win! Scissors beats Paper";
-        }
-    }
+            gameRound++;
+            return rResultText.textContent = "You Win!";
+        };
+    };
 };
