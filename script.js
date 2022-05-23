@@ -2,6 +2,7 @@ const btnContainer = document.querySelector('.btn-container')
 const button = document.querySelector('.myBtn');
 const textContainer = document.querySelector('.title');
 const titleText = document.getElementById('title-text')
+const gPlay = document.querySelector('.game-arena');
 
 const options = ['rock', 'paper', 'scissors'];
 
