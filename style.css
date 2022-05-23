@@ -174,3 +174,7 @@ img {
     -webkit-text-stroke-width: calc(3em / 16);
     -webkit-background-clip: text;
 }
+
+.round-winner {
+    width: 100%;
+}
