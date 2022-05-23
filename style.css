@@ -31,3 +31,8 @@ img {
     
     background: radial-gradient(50% 89.4% at 50% 50%, #8CC63F 0%, #3B4806 100%);
 }
+
+.container {
+    position: relative;
+    width: 100%;
+}
