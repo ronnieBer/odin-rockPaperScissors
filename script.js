@@ -24,6 +24,10 @@ function gameStart() {
 
 button.textContent = "START GAME";
 
+button.addEventListener("click", function () {
+    gameStart()
+});
+
 
 const options = ['rock', 'paper', 'scissors'];
 
