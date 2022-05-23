@@ -40,47 +40,36 @@ function computerSelect() {
 };
 
 
-function play() {
-    const playerSelection = playerSelect();
-    const computerSelection = computerSelect();
-
-    function playRound(playerSelection, computerSelection) {
-        if (playerSelection === computerSelection) {
-            numberOfDraw++;
-            return "Its a Draw!";
-        } else {
-            //Validate player selection Rock.
-            if (playerSelection == "rock" && computerSelection == "paper") {
-                computerScore++;
-                return "You Lose! Paper beats Rock";
-            } else if (playerSelection == "rock" && computerSelection == "scissors") {
-                playerScore++;
-                return "You Win! Rock beats Scissors";
-            }
-            //Validate player selection Paper.
-            if (playerSelection == "paper" && computerSelection == "scissors") {
-                computerScore++;
-                return "You Lose! Scissors beats Paper";
-            } else if (playerSelection == "paper" && computerSelection == "rock") {
-                playerScore++;
-                return "You Win! Paper beats Rock";
-            }
-            //Validate player selection Scissors.
-            if (playerSelection == "scissors" && computerSelection == "rock") {
-                computerScore++;
-                return "You Lose! Rock beats Scissors";
-            } else if (playerSelection == "scissors" && computerSelection == "paper") {
-                playerScore++;
-                return "You Win! Scissors beats Paper";
-            }
+function playRound(playerSelection, computerSelection) {
+    if (playerSelection === computerSelection) {
+        numberOfDraw++;
+        return "Its a Draw!";
+    } else {
+        //Validate player selection Rock.
+        if (playerSelection == "rock" && computerSelection == "paper") {
+            computerScore++;
+            return "You Lose! Paper beats Rock";
+        } else if (playerSelection == "rock" && computerSelection == "scissors") {
+            playerScore++;
+            return "You Win! Rock beats Scissors";
         }
-    };
-    console.log(playerSelection);
-    console.log(computerSelection);
-    console.log(playRound(playerSelection, computerSelection));
-    console.log("You: " + playerScore);
-    console.log("Computer: " + computerScore);
-    console.log("Number of Draw: " + numberOfDraw);
+        //Validate player selection Paper.
+        if (playerSelection == "paper" && computerSelection == "scissors") {
+            computerScore++;
+            return "You Lose! Scissors beats Paper";
+        } else if (playerSelection == "paper" && computerSelection == "rock") {
+            playerScore++;
+            return "You Win! Paper beats Rock";
+        }
+        //Validate player selection Scissors.
+        if (playerSelection == "scissors" && computerSelection == "rock") {
+            computerScore++;
+            return "You Lose! Rock beats Scissors";
+        } else if (playerSelection == "scissors" && computerSelection == "paper") {
+            playerScore++;
+            return "You Win! Scissors beats Paper";
+        }
+    }
 };
 
 function logWins() {
