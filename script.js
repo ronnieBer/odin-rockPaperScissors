@@ -131,5 +131,7 @@ function winner() {
         };
     
         gameFinish()
+
+        titleText.textContent = "GAME OVER!";
     };
 };
