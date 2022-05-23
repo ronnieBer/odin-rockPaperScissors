@@ -189,3 +189,24 @@ img {
     opacity: 0;
     transition: opacity .5s;
 }
+
+.vs-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 75px;
+    height: 182px;
+
+    font-family: 'Passero One', cursive;
+    font-size: 3.2rem;
+    line-height: 2rem;
+    color: #ffffff;
+
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(180deg, #354200, #216501, #3B4806);
+    background-clip: text;
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: calc(2.5em / 16);
+    -webkit-background-clip: text;
+}
