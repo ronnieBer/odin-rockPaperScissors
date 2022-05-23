@@ -1,3 +1,5 @@
+const btnContainer = document.querySelector('.btn-container')
+
 const options = ['rock', 'paper', 'scissors'];
 
 let playerScore = 0;
