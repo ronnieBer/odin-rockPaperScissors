@@ -287,3 +287,14 @@ img {
     -webkit-text-stroke-width: calc(2.5em / 16);
     -webkit-background-clip: text;
 }
+
+.move {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    height: 65%;
+    margin: 10PX;
+}
