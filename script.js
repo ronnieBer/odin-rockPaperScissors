@@ -133,5 +133,7 @@ function winner() {
         gameFinish()
 
         titleText.textContent = "GAME OVER!";
+
+        button.textContent = "PLAY AGAIN";
     };
 };
