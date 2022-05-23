@@ -129,5 +129,7 @@ function winner() {
         } else {
             gameWinner.textContent = "It's a draw game!";
         };
+    
+        gameFinish()
     };
 };
