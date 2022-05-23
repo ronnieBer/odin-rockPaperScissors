@@ -124,3 +124,25 @@ img {
     width: 257px;
     height: auto;
 }
+
+.round {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 257px;
+    height: 181px;
+
+    font-family: 'Passero One', cursive;
+    font-size: 2.3rem;
+    line-height: 2rem;
+    color: #ffffff;
+
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(180deg, #354200, #216501, #3B4806);
+    background-clip: text;
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: calc(2.5em / 16);
+    -webkit-background-clip: text;
+}
