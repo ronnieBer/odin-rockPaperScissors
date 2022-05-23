@@ -57,3 +57,17 @@ img {
     align-items: center;
     position: relative;
 }
+
+.myBtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 252.14px;
+    height: 52px;
+    border: 0;
+    cursor: pointer;
+
+    background: rgba(0, 0, 0, 0);
+    background-image: url(./assets/images/Start\ Game\ Btn.svg);
+    background-size: cover;
+}
