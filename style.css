@@ -243,3 +243,18 @@ img {
     color: #ffffff;
     text-transform: uppercase;
 }
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 37%;
+    margin-top: 11px;
+
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
