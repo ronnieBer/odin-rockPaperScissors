@@ -45,7 +45,7 @@ button.addEventListener("click", function () {
 
 
 const pOptions = document.querySelectorAll(".pOptions");
-const options = ['rock', 'paper', 'scissors'];
+const options = ['Rock', 'Paper', 'Scissors'];
 
 let playerScore = 0;
 let computerScore = 0;
