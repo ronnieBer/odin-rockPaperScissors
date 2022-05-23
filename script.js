@@ -135,5 +135,9 @@ function winner() {
         titleText.textContent = "GAME OVER!";
 
         button.textContent = "PLAY AGAIN";
+        button.addEventListener('click', function() {
+            gameFinish()
+            document.location.reload(true);
+        });
     };
 };
