@@ -146,3 +146,8 @@ img {
     -webkit-text-stroke-width: calc(2.5em / 16);
     -webkit-background-clip: text;
 }
+
+.round span {
+    font-size: 4.5rem;
+    line-height: 4rem;
+}
