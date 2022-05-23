@@ -40,6 +40,7 @@ function computerSelect() {
     return options[Math.floor(Math.random() * options.length)];
 };
 
+pOptions.forEach();
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
