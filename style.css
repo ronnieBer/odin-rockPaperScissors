@@ -258,3 +258,15 @@ img {
     color: #000000;
     text-transform: uppercase;
 }
+
+.player-moves {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 25%;
+
+    opacity: 0;
+    transition: opacity .5s;
+}
