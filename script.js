@@ -1,5 +1,6 @@
 const btnContainer = document.querySelector('.btn-container')
 const button = document.querySelector('.myBtn');
+const textContainer = document.querySelector('.title');
 
 const options = ['rock', 'paper', 'scissors'];
 
