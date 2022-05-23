@@ -71,3 +71,12 @@ img {
     background-image: url(./assets/images/Start\ Game\ Btn.svg);
     background-size: cover;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    max-width: 992px;
+    height: 90vh;
+}
