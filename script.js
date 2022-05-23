@@ -39,17 +39,6 @@ function computerSelect() {
     return options[Math.floor(Math.random() * options.length)];
 };
 
-function playerSelect() {
-    let input = prompt("Input Rock, Paper, and Scissors. Press Enter or click OK.").toLowerCase();
-    let check = validateInput(input);
-
-    while (check == false) {
-        input = prompt("Check your spelling! Input Rock, Paper, and Scissors. Press Enter or click OK.").toLowerCase();
-        check = validateInput(input);
-    }
-    check;
-    return input;
-};
 
 function play() {
     const playerSelection = playerSelect();
