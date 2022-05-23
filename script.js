@@ -60,7 +60,11 @@ pOptions.forEach((pOption) => {
         const playerSelection = this.value;
         const computerSelection = computerSelect();
 
-
+        playRound(playerSelection, computerSelection);
+        updateMoves(playerSelection, computerSelection);
+        updateScore();
+        updateRound();
+        winner();
     });
 });
 
