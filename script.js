@@ -51,11 +51,6 @@ function playerSelect() {
     return input;
 };
 
-//Validate player input according to options array.
-function validateInput(option) {
-    return options.includes(option)
-};
-
 function play() {
     const playerSelection = playerSelect();
     const computerSelection = computerSelect();
