@@ -22,6 +22,8 @@ function gameStart() {
     pMoves.style.opacity = '100';
 }
 
+button.textContent = "START GAME";
+
 
 const options = ['rock', 'paper', 'scissors'];
 
