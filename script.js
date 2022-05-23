@@ -4,6 +4,7 @@ const textContainer = document.querySelector('.title');
 const titleText = document.getElementById('title-text')
 const gPlay = document.querySelector('.game-arena');
 const rResultContainer = document.querySelector('.round-result');
+const rResultText = document.getElementById('round-winner');
 
 const options = ['rock', 'paper', 'scissors'];
 
