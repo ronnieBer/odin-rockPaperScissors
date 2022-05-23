@@ -96,3 +96,7 @@ function updateScore() {
     document.getElementById("p_score").textContent = playerScore;
     document.getElementById("c_score").textContent = computerScore;
 };
+
+function updateRound() {
+    document.getElementById("round-count").textContent = gameRound;
+};
