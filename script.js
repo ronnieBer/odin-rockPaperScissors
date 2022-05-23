@@ -100,3 +100,15 @@ function updateScore() {
 function updateRound() {
     document.getElementById("round-count").textContent = gameRound;
 };
+
+function winner() {
+    if (gameRound === 5) {
+        if (playerScore > computerScore) {
+            gameWinner.textContent = "Yes! You win the game!";
+        } else if (playerScore < computerScore) {
+            gameWinner.textContent = "Sorry! You lose the game!";
+        } else {
+            gameWinner.textContent = "It's a draw game!";
+        };
+    };
+};
