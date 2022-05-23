@@ -34,7 +34,7 @@ const options = ['rock', 'paper', 'scissors'];
 
 let playerScore = 0;
 let computerScore = 0;
-let numberOfDraw = 0;
+let gameRound = 0;
 
 function computerSelect() {
     return options[Math.floor(Math.random() * options.length)];
@@ -45,7 +45,7 @@ pOptions.forEach((pOption) => {
         const playerSelection = this.value;
         const computerSelection = computerSelect();
 
-        
+
     });
 });
 
