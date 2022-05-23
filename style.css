@@ -210,3 +210,11 @@ img {
     -webkit-text-stroke-width: calc(2.5em / 16);
     -webkit-background-clip: text;
 }
+
+.p_score-board-bg, 
+.c_score-board-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
