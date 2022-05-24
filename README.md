@@ -12,6 +12,8 @@ The first part of this project is to apply all that I learned in the following J
 - Problem-Solving
 - Understanding Errors
 - Clean Code
+
+
 The second part of this project is to apply all that I learned from CSS Foundation, Flexbox, and the following JavaScript Basics curriculum:
 - Fundamentals Part 4
 - Dome Manipulation and Events
