@@ -62,7 +62,9 @@ button.textContent = "START GAME";
 
 button.addEventListener("click", function () {
     playBtnSound();
-    gameStart();
+    setTimeout(() => {
+        gameStart();
+    }, 200);
 });
 
 
