@@ -162,8 +162,11 @@ function winner() {
         button.textContent = "PLAY AGAIN";
         button.addEventListener('click', function() {
             playBtnSound();
-            gameFinish();
-            document.location.reload(true);
+
+            setTimeout(() => {
+                gameFinish();
+                document.location.reload(true);
+            }, 200);
         });
     };
 };
