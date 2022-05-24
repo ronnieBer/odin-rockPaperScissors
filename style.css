@@ -503,3 +503,23 @@ img {
         height: 50%;
     }
 }
+
+@media only screen and (min-width: 1200px) {
+    .title {
+        height: 15%;
+    }
+
+    .p_score-board-bg, 
+    .c_score-board-bg {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .score-label {
+        margin: 12px 0;
+    }
+
+    .score {
+        margin: -2px 0;
+    }
+}
