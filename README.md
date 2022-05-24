@@ -12,3 +12,15 @@ The first part of this project is to apply all that I learned in the following J
 - Problem-Solving
 - Understanding Errors
 - Clean Code
+The second part of this project is to apply all that I learned from CSS Foundation, Flexbox, and the following JavaScript Basics curriculum:
+- Fundamentals Part 4
+- Dome Manipulation and Events
+
+#### Reflection/Outcome
+To achieve this Rock Paper Scissors User Interface more mobile responsive, I created a UI design for Desktop and Mobile devices on Figma.
+
+#### SoundFx Credits
+- Button Click - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/click/)Select Click
+- Winner Sound - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/win/)Video Game Win
+- Loser Sound - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/lose/)Retro Arcade Lose
+- Draw Sound - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/arcade/)Arcade Space Shooter Dead Notification
