@@ -26,6 +26,11 @@ function playLoseSound() {
     loseSound.play();
 };
 
+function playDrawSound() {
+    const drawSound = document.getElementById("draw-sound");
+    drawSound.play();
+};
+
 
 function gameStart() {
     textContainer.style.top = '0';
