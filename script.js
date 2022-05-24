@@ -11,6 +11,12 @@ const gameWinner = document.getElementById('game-winner');
 const eMassageContainer = document.querySelector('.end-message');
 
 
+function playBtnSound() {
+    const buttonPress = document.querySelector('#button-sound');
+    buttonPress.play();
+}
+
+
 function gameStart() {
     textContainer.style.top = '0';
     btnContainer.style.opacity = '0';
