@@ -411,3 +411,95 @@ img {
         font-size: 1.3rem;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .score-label {
+        font-size: 2.2rem;
+        margin: 10px 0;
+    }
+
+    .score {
+        font-size: 3.2rem;
+        margin: -2px 0;
+    }
+
+    .end-message {
+        height: 15%;
+        top: 25vh;
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .main {
+        max-width: 600px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        height: 15%;
+    }
+
+    .game-arena {
+        height: 25%;
+        padding: 0 14%;
+    }
+
+    .player-move, 
+    .computer-move {
+    width: 200px;
+    height: auto;
+    }
+
+    .round {
+        width: 200px;
+        height: 100%;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    
+    .round span {
+        font-size: 3.5rem;
+        line-height: 2rem;
+    }
+
+    .round-winner {
+        font-size: 2.2rem;
+    }
+
+    .score-board {
+        height: 40%;
+        padding: 0 3%;
+    }
+
+    .vs-text {
+        font-size: 2rem;
+        height: auto;
+    }
+
+    .p_score-board-bg, 
+    .c_score-board-bg {
+        width: 90%;
+        max-width: 230px;
+    }
+
+    .score-label {
+        font-size: 1.6rem;
+        margin-top: 8px;
+    }
+
+    .score {
+        font-size: 2.2rem;
+        margin-top: -4px;
+    }
+
+    .player-moves h2 {
+        max-width: 300px;
+        font-size: 1.5em;
+    }
+
+    .move {
+        max-width: 300px;
+        height: 50%;
+    }
+}
