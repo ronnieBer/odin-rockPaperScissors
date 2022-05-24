@@ -20,7 +20,7 @@ The second part of this project is to apply all that I learned from CSS Foundati
 To achieve this Rock Paper Scissors User Interface more mobile responsive, I created a UI design for Desktop and Mobile devices on Figma.
 
 #### SoundFx Credits
-- Button Click - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/click/)Select Click
-- Winner Sound - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/win/)Video Game Win
-- Loser Sound - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/lose/)Retro Arcade Lose
-- Draw Sound - [Mixkit Free Sound Effects] (https://mixkit.co/free-sound-effects/arcade/)Arcade Space Shooter Dead Notification
+- Button Click - [Mixkit Free Sound Effects](https://mixkit.co/free-sound-effects/click/) Select Click
+- Winner Sound - [Mixkit Free Sound Effects](https://mixkit.co/free-sound-effects/win/) Video Game Win
+- Loser Sound - [Mixkit Free Sound Effects](https://mixkit.co/free-sound-effects/lose/) Retro Arcade Lose
+- Draw Sound - [Mixkit Free Sound Effects](https://mixkit.co/free-sound-effects/arcade/) Arcade Space Shooter Dead Notification
