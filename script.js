@@ -82,6 +82,7 @@ pOptions.forEach((pOption) => {
         const playerSelection = this.value;
         const computerSelection = computerSelect();
 
+        playBtnSound();
         playRound(playerSelection, computerSelection);
         updateMoves(playerSelection, computerSelection);
         updateScore();
