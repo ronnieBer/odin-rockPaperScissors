@@ -12,9 +12,14 @@ const eMassageContainer = document.querySelector('.end-message');
 
 
 function playBtnSound() {
-    const buttonPress = document.querySelector('#button-sound');
+    const buttonPress = document.querySelector('button-sound');
     buttonPress.play();
-}
+};
+
+function playWinSound() {
+    const winSound = document.getElementById("winner-sound");
+    winSound.play();
+};
 
 
 function gameStart() {
@@ -26,7 +31,7 @@ function gameStart() {
     rResultContainer.style.opacity = '100';
     sBoard.style.opacity = '100';
     pMoves.style.opacity = '100';
-}
+};
 
 function gameFinish() {
     textContainer.style.top = '8vh';
@@ -41,12 +46,12 @@ function gameFinish() {
     btnContainer.style.opacity = '100';
     btnContainer.style.top = '75vh';
     btnContainer.style.zIndex = '1';
-}
+};
 
 button.textContent = "START GAME";
 
 button.addEventListener("click", function () {
-    gameStart()
+    gameStart();
 });
 
 
@@ -136,13 +141,13 @@ function winner() {
             gameWinner.textContent = "It's a draw game!";
         };
     
-        gameFinish()
+        gameFinish();
 
         titleText.textContent = "GAME OVER!";
 
         button.textContent = "PLAY AGAIN";
         button.addEventListener('click', function() {
-            gameFinish()
+            gameFinish();
             document.location.reload(true);
         });
     };
