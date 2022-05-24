@@ -61,6 +61,7 @@ function gameFinish() {
 button.textContent = "START GAME";
 
 button.addEventListener("click", function () {
+    playBtnSound();
     gameStart();
 });
 
@@ -157,6 +158,7 @@ function winner() {
 
         button.textContent = "PLAY AGAIN";
         button.addEventListener('click', function() {
+            playBtnSound();
             gameFinish();
             document.location.reload(true);
         });
