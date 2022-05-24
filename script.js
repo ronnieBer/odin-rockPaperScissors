@@ -12,7 +12,7 @@ const eMassageContainer = document.querySelector('.end-message');
 
 
 function playBtnSound() {
-    const buttonPress = document.querySelector('button-sound');
+    const buttonPress = document.getElementById("button-sound");
     buttonPress.play();
 };
 
