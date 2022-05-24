@@ -19,7 +19,7 @@ The second part of this project is to apply all that I learned from CSS Foundati
 - Dome Manipulation and Events
 
 #### Reflection/Outcome
-To achieve this Rock Paper Scissors User Interface more mobile responsive, I created a UI design for Desktop and Mobile devices on Figma.
+To achieve this Rock Paper Scissors User Interface more mobile responsive, I created a design for Desktop and Mobile devices in Figma and used it as a CSS reference.
 
 #### SoundFx Credits
 - Button Click - [Mixkit Free Sound Effects](https://mixkit.co/free-sound-effects/click/) Select Click
