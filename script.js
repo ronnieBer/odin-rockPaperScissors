@@ -21,6 +21,11 @@ function playWinSound() {
     winSound.play();
 };
 
+function playLoseSound() {
+    const loseSound = document.getElementById("loser-sound");
+    loseSound.play();
+};
+
 
 function gameStart() {
     textContainer.style.top = '0';
