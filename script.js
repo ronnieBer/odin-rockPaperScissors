@@ -149,10 +149,13 @@ function winner() {
     if (gameRound === 5) {
         if (playerScore > computerScore) {
             gameWinner.textContent = "Yes! You win the game!";
+            playWinSound();
         } else if (playerScore < computerScore) {
             gameWinner.textContent = "Sorry! You lose the game!";
+            playLoseSound();
         } else {
             gameWinner.textContent = "It's a draw game!";
+            playDrawSound();
         };
     
         gameFinish();
