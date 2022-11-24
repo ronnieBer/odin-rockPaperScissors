@@ -3,6 +3,7 @@
 ### A Brief Introduction
 In this third repository from The Odin Project Foundations Course: JavaScript Basics, I'm going to make a simple implementation of the grade-school classic game "rock paper scissors". The first part of this project is focused on javascript and the second part of this project is to create a GUI (Graphical User Interface) with buttons and text.
 
+
 ### Learning Goal
 The first part of this project is to apply all that I learned in the following JavaScript Basics curriculum:
 - Fundamentals Part 1
@@ -18,8 +19,13 @@ The second part of this project is to apply all that I learned from CSS Foundati
 - Fundamentals Part 4
 - Dome Manipulation and Events
 
+
 ## Reflection/Outcome
 To achieve this Rock Paper Scissors User Interface more mobile responsive, I created a design for Desktop and Mobile devices in Figma and used it as a CSS reference.
+
+
+#### :point_right: Rock Paper Scissors [Live Demo](https://ronnieber.github.io/odin-rockPaperScissors/)
+
 
 ### SoundFx Credits
 - Button Click - [Mixkit Free Sound Effects](https://mixkit.co/free-sound-effects/click/) Select Click
