@@ -18,7 +18,7 @@ The second part of this project is to apply all that I learned from CSS Foundati
 - Fundamentals Part 4
 - Dome Manipulation and Events
 
-#### Reflection/Outcome
+## Reflection/Outcome
 To achieve this Rock Paper Scissors User Interface more mobile responsive, I created a design for Desktop and Mobile devices in Figma and used it as a CSS reference.
 
 #### SoundFx Credits
